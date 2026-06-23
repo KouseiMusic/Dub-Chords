@@ -1,12 +1,15 @@
-<p align="center"><img width="410" height="101" alt="Dub_Chords_Banner_S" src="https://github.com/user-attachments/assets/8b428aa0-960b-417c-a334-c9f7efd1dd69" /></p>
+<p align="center"><img width="300" height="69" alt="dubchordsbannersmall" src="https://github.com/user-attachments/assets/8752b522-6513-4186-9234-f01001819164" />
+</p>
 
- _<p align="center">Synthesizer for Dub Techno Chords & Stabs. Synthesizes minor-chords, resonant filtering and rhythmic echoes for Dub Techno textures and melodies.</p>_
+ **_<p align="center">Dub Techno Chords Synthesizer.</p>_**
 
-![Version](https://img.shields.io/badge/Version-1.0.1-brightgreen?style=flat-square)
+---
+
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
 ![macOS Support](https://img.shields.io/badge/macOS-Sonoma%20%7C%20Sequoia%20%7C%20Tahoe-000000?style=flat-square&logo=apple&logoColor=white)
-![Architecture](https://img.shields.io/badge/Architecture-Universal%20Silicon%20%26%20Intel-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
-![Format](https://img.shields.io/badge/Format-Standalone%20%7C%20AU%20%7C%20VST3-00CED1?style=flat-square)
-![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=abletonlive&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-Intel%20%7C%20Silicon%20%7C%20Universal-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
+![Format](https://img.shields.io/badge/Format-Standalone%20%7C%20AU%20%7C%20VST3-00CED1?style=flat-square&logo=steinberg&logoColor=white)
+![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=bandlab&logoColor=white&labelColor=555555)
 
 ---
 
@@ -17,20 +20,25 @@ https://github.com/user-attachments/assets/1f78e813-5477-404e-b248-cf5ee1a5369b
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 - **Dub Engine**: Deep, resonant chords with high-feedback delay and atmospheric reverb.
+
 - **Standalone**: Runs as a native application on macOS (Sonoma, Sequoia, Tahoe) without a browser.
+
 - **VST Integration (AU & VST3)**: Compatible with Ableton Live 12 and other major DAWs.
+
 - **Zero Dependencies**: Fully offline capable. No internet connection required.
+
 - **Minimalist UI**: Dark-themed, high-contrast interface optimized for low-light studio environments.
+
 - **Multi-Language Support**: Interface available in English, Français, Русский, 日本語, and 한국어 with the keyboards layouts and keybindings respective to each language.
+
 ---
 
 ## 𝐒𝐲𝐬𝐭𝐞𝐦 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
 
-- **macOS**: 14.0 (Sonoma), 15.0 (Sequoia), or 16.0 (Tahoe).
-- **Architecture**: Intel & Apple Silicon.
-- **DAW**: Ableton Live 12+
-
-_Note : Works on Ableton Live 11+ but without interface. Support for Ableton Live 11+ will be included in the future release._
+- **macOS**: Sonoma (14.0), Sequoia (15.0) or Tahoe (16.0)
+- **Architecture**: Intel (x64), Apple Silicon (Arm64) or Universal (U2B)
+- **DAW (Plugin mode)**: Ableton Live 12 or 11, Logic Pro, Reason with the [BlackHole](https://github.com/ExistentialAudio/BlackHole) virtual audio driver for DAW routing in standalone mode.
+> Audio Unit (AU) & VST3 plugins formats are currently under development.
 
 ---
 
@@ -41,26 +49,22 @@ _Note : Works on Ableton Live 11+ but without interface. Support for Ableton Liv
 2. Extract & Drag to your `Applications` folder.
 3. Open `Dub Chords` and begin playing.
 
-### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐)
-1. Download the latest [`DubChords.component.zip`](https://github.com/DeobfuscateMusic/Dub-Chords/releases/download/DubChords1.0.1/DubChords.component.zip)
-2. Extract & Copy `Dubchords.component` to `/Library/Audio/Plug-Ins/Components`.
-3. Rescan plugins in Ableton Live 12.
-4. Create a MIDI track & Load `Dub Chords` onto the MIDI track and begin playing.
+### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔)
 
-### 𝐕𝐒𝐓𝟑 (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐)
-1. Download the latest [`DubChords.vst3.zip`](https://github.com/DeobfuscateMusic/Dub-Chords/releases/download/DubChords1.0.1/DubChords.vst3.zip)
-2. Extract & Copy `Dubchords.vst3` to `/Library/Audio/Plug-Ins/VST3`.
-3. Rescan plugins in Ableton Live 12.
-4. Create a MIDI track & Load `Dub Chords` onto the MIDI track and begin playing.
+> 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 
-_You can download [`DubChords1.0.1.Standalone.AU.VST3.zip
-`](https://github.com/DeobfuscateMusic/Dub-Chords/releases/download/DubChords1.0.1/DubChords1.0.1.Standalone.AU.VST3.zip) with everything already inside._
+### 𝐕𝐒𝐓𝟑 
 
-_You can also check [Releases](https://github.com/DeobfuscateMusic/Dub-Chords/releases)._
+> 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 
----
+## 𝐃𝐀𝐖 𝐔𝐬𝐚𝐠𝐞
 
-<img width="1440" height="866" alt="Dubchordspluginpreview" src="https://github.com/user-attachments/assets/bc80fdef-e038-4fb2-8a1b-d5a87b415f25" />
+1. Install [`BlackHole`](https://github.com/ExistentialAudio/BlackHole), a free virtual audio driver for macOS.
+2. Open `Audio MIDI Setup` (found in `/Applications/Utilities/`).
+3. Create a `Multi-Output Device` that includes both your `Audio Interface` and `BlackHole`.
+4. Set the `Multi-Output Device` as the system output in `System Settings` > `Sound`.
+5. In your `DAW`, create an `Audio Input Track` and set its input source to `BlackHole`.
+6. You can now record or monitor `Dub Chords`'s output in real time.
 
 ---
 
@@ -83,34 +87,18 @@ _You can also check [Releases](https://github.com/DeobfuscateMusic/Dub-Chords/re
 - **Phaser**: Add swirling movement to the sound.
 - **Delay/Reverb**: Create infinite space and rhythmic feedback.
 
-### 𝐌𝐈𝐃𝐈 𝐂𝐥𝐢𝐩 𝐏𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐞 (𝐃𝐀𝐖 𝐔𝐬𝐚𝐠𝐞)
-
-1. Drag `DubChords` onto a new MIDI track.
-2. Double-click an empty slot in the track to create a MIDI clip.
-3. **Triggering Chords:** 
-- A single MIDI note will trigger a full dub chord based on your Voices and Base Note settings.
-- For best results, use long sustained notes to let the delay and reverb tails breathe.
-4. **Recording Automation:** 
-- Enable `Automation Arm` in your DAW.
-- Move the knobs in the `Dub Chords` interface during playback. The movements will be recorded directly into your MIDI clip or arrangement.
-
-### 𝐏𝐚𝐫𝐚𝐦𝐞𝐭𝐞𝐫𝐬 𝐌𝐚𝐩𝐩𝐢𝐧𝐠 & 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧
-- **DAW Mapping**: All parameters (Cutoff, Feedback, Phaser, etc...) are exposed as standard VST/AU parameters. You can use Ableton's `Configure` mode to map them to your MIDI controller.
-- **MIDI Learn**: Right-click a parameter in the `Configure` list to assign it to a physical knob on your hardware.
-
 ---
 
 ## 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 & 𝐀𝐜𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐦𝐞𝐧𝐭𝐬
 
-- **Developer**: [Deobfuscate](https://github.com/DeobfuscateMusic)
+- **Developer**: [Kousei](https://github.com/KouseiMusic)
 - **Tester**: [blockletter](https://github.com/braddownie)
 
 ---
 
-_This software and plugins are free. Don't forget to give it a ⭐ on Github if you liked the project._
+_This software is free. Don't forget to give it a ⭐ on Github if you liked the project._
 
 ---
 
-<p align="center"><img width="91" height="78" alt="Logo_Deobfuscate_RoundXS" src="https://github.com/user-attachments/assets/fc8cb716-65d0-492d-8e4c-66c084ab0fb8" /></p>
-<p align="center"><code>𝕯𝖊𝖔𝖇𝖋𝖚𝖘𝖈𝖆𝖙𝖊</code></p>
-<p align="center">2026</p>
+<p align="center"><code>𝒦𝑜𝓊𝓈𝑒𝒾</code></p>
+<p align="center"><code>2026</code></p>
