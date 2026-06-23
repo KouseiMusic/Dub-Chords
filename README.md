@@ -13,7 +13,7 @@
 
 ---
 
-https://github.com/user-attachments/assets/1f78e813-5477-404e-b248-cf5ee1a5369b
+<img width="1288" height="856" alt="dubchordspreview" src="https://github.com/user-attachments/assets/148ace22-6c75-422d-b4e8-f982e0d96b99" />
 
 ---
 
