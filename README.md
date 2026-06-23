@@ -23,8 +23,6 @@
 
 - **Standalone**: Runs as a native application on macOS (Sonoma, Sequoia, Tahoe) without a browser.
 
-- **VST Integration (AU & VST3)**: Compatible with Ableton Live 12 and other major DAWs.
-
 - **Zero Dependencies**: Fully offline capable. No internet connection required.
 
 - **Minimalist UI**: Dark-themed, high-contrast interface optimized for low-light studio environments.
