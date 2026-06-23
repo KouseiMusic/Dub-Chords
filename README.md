@@ -20,12 +20,19 @@
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 - **Dub Engine**: Deep, resonant chords with up to 5 voices per trigger, amplitude envelopes and organic velocity variation for analogue warmth.
+
 - **Global Delay**: Feedback delay with high-feedback capabilities to darken repeats. Feedback depth and wet level are both adjustable.
+
 - **Global Reverb**: Atmospheric reverb network for spatial depth.
+
 - **Phaser Modulation**: Add swirling movement to the sound with the built-in phaser effect.
+
 - **WAV Recording**: One-click recording to a WAV file named with a date-time stamp. Captured post-master volume for a clean, ready-to-use bounce.
+
 - **Multi-Language Keyboard Support**: Interface and keyboard bindings adapt to English (QWERTY), French (AZERTY), Russian (ЙЦУКЕН), Japanese (JIS) and Korean (두벌식) layouts. On-screen key labels update to match the selected locale.
+
 - **Standalone**: Runs as a native application on macOS (Sonoma, Sequoia, Tahoe) without a browser.
+
 - **Zero Dependencies at Runtime**: No internet connection required. Fully self-contained once installed.
 
 ---
