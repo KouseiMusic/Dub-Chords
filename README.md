@@ -49,7 +49,7 @@
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
-1. Download the latest [`Dub.Chords.1.1.0.app.zip`](https://github.com/KouseiMusic/Dub-Chords/releases/download/DubChords1.1.0/Dub.Chords.macOS.Universal.zip)
+1. Download the latest [`Dub Chords`](https://github.com/KouseiMusic/Dub-Chords/releases/download/Dub_Chords_1.1.0/Dub_Chords_1.1.0_app_macOS_Universal.zip).
 2. Extract & Drag `Dub Chords` to your `Applications` folder.
 3. If macOS shows a Gatekeeper warning on first launch, right-click the application and choose `Open`, then confirm.
 
